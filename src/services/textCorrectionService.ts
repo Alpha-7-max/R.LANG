@@ -2,7 +2,7 @@
 import { toast } from "sonner";
 
 const API_KEY = "AIzaSyDSF270Y1VJf1fe4G8ZAuw7bOITbAlal74";
-const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
+const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemma-3-27b-it:generateContent";
 
 export interface TextCorrectionResponse {
   correctedText: string;
